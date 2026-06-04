@@ -1,11 +1,3 @@
-output "lambda_cloudwatch_alarm_creator_arn" {
-  value = module.lambda_cw_alarm_creator.lambda_function_arn
-}
-
-output "lambda_cloudwatch_alarm_creator_name" {
-  value = module.lambda_cw_alarm_creator.lambda_function_name
-}
-
 output "lambda_payload_forwarder_arn" {
   value = module.lambda_payload_forwarder.lambda_function_arn
 }
