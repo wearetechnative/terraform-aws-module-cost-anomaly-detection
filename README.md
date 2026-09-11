@@ -1,4 +1,4 @@
-# Terraform AWS Cost Anomaly Detection ![](https://img.shields.io/github/workflow/status/TechNative-B-V/terraform-aws-module-cost-anomaly-detection/Lint?style=plastic)
+# Terraform AWS Cost Anomaly Detection ![](https://img.shields.io/github/actions/workflow/status/wearetechnative/terraform-aws-module-cost-anomaly-detection/tflint.yaml?branch=main&style=plastic)
 
 <!-- SHIELDS -->
 This Terraform module configures AWS Cost Anomaly Detection and forwards cost anomaly events through [EventBridge](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-events.html), SNS, and Lambda to an SQS queue.
